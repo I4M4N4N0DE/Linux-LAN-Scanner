@@ -25,7 +25,7 @@
 
 type scanimage -L into your terminal
 
-the following devices displayed have to be inserted into the scanner_xxxxx.sh script you'll be using
+the following devices displayed have to be inserted into the scanner.sh script you'll be using
 (the script is commented, you'll find it)
 
 After these steps, you should be fine working. 
