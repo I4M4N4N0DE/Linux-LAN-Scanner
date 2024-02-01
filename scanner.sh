@@ -8,7 +8,7 @@ scanpdf () {
     scanimage --device "airscan:e0:Canon MF230" --format=pdf --output-file $destination
     
     # displaying a notification about succeeded scanning
-    notify-send -a Scanner -t 5000 -u critical "Complete! The PDF scan is saved at $destination" 
+    notify-send -a Scanner -t 5000 -u critical "Completed! The PDF scan is saved at $destination" 
 
     # opening the created image using xdg-open for PDF format
     # exchange the command for any other application you want to use
@@ -21,7 +21,7 @@ scanpng () {
     
     scanimage --device "airscan:e0:Canon MF230" --format=png --output-file $destination 
     
-    notify-send -a Scanner -t 5000 -u critical "Complete! The PNG scan is saved at $destination" 
+    notify-send -a Scanner -t 5000 -u critical "Completed! The PNG scan is saved at $destination" 
 
     # opening the created image
     xdg-open "$destination"
@@ -48,7 +48,7 @@ main () {
                 main
             fi;;
             
-            # the window was closed/the script killed
+            # the window was closed
             1)
             exit;;
     
