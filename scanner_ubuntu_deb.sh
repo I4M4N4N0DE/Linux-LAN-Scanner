@@ -24,7 +24,7 @@ scanpng () {
     notify-send -a Scanner -t 5000 -u critical "Complete! The PNG scan is saved at $destination" 
 
     # opening the created image using gwenview
-    gwenview -f "$destination"
+    xdg-open "$destination"
 }
 
 # the main running function
