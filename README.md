@@ -1,4 +1,4 @@
-**DEPENDENCIES** you may need to install to your system (usually it's not neccessary):
+**DEPENDENCIES** you need to install to your system (some of them won't be neccessary):
 
 1. - **NOTIFY module** 
 
