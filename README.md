@@ -1,4 +1,4 @@
-**DEPENDENCIES** you need to install (some of them should be installed already):
+**DEPENDENCIES** you need to install (some of them should be installed within your system already):
 
 1. - **NOTIFY module** 
 
